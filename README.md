@@ -34,9 +34,13 @@ Ejecutar los clientes en diferentes terminales o equipos:
 java ClienteMulticast
 Cada cliente selecciona la misma sala que el servidor para recibir y enviar mensajes.
 ### Uso
+
 1.El servidor inicia y se conecta a una sala específica.
+
 2.Cada cliente elige la misma sala y proporciona un nombre de usuario.
+
 3.Los mensajes enviados por cualquier cliente son recibidos por todos los participantes de la sala, incluido el servidor.
+
 4.Cada mensaje muestra la hora local y el nombre del remitente, por ejemplo:
 
 [15:42:10] Alice: Hola a todos
